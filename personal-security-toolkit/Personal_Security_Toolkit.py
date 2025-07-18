@@ -264,9 +264,9 @@ class KeyManager:
         """Retrieve a named key"""
         return self.keys.get(name)
 
-# --------------------------------------
+# -------------------------------------
 # Main Security Toolkit Class
-# --------------------------------------
+# -------------------------------------
 class SecurityToolkit:
     def __init__(self):
         self.config = SecurityConfig()
