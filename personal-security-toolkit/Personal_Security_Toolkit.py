@@ -17,9 +17,9 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import base64
 
-# --------------------------------------
+# -------------------------------------
 # Configuration & Constants
-# --------------------------------------
+# -------------------------------------
 class EnhancedJSONEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, Path):
@@ -42,9 +42,9 @@ DEFAULT_CONFIG = {
     ]
 }
 
-# --------------------------------------
+# -------------------------------------
 # Security Configuration Manager
-# --------------------------------------
+# -------------------------------------
 class SecurityConfig:
     def __init__(self, config_path: Optional[Union[str, Path]] = None):
         self.config_path = Path(config_path) if config_path else Path(DEFAULT_CONFIG['base_dir']) / "config.json"
