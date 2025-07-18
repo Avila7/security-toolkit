@@ -116,9 +116,9 @@ class SecurityConfig:
         self._config[key] = value
         self._save_config()
 
-# --------------------------------------
+# -------------------------------------
 # Cryptographic Utilities
-# --------------------------------------
+# -------------------------------------
 class CryptoUtils:
     @staticmethod
     def generate_fernet_key(password: Optional[str] = None, salt: Optional[bytes] = None) -> bytes:
