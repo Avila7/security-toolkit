@@ -300,9 +300,9 @@ class SecurityToolkit:
         except Exception as e:
             print(f"Key generation failed: {e}")
 
-# --------------------------------------
+# -------------------------------------
 # Entry Point
-# --------------------------------------
+# -------------------------------------
 if __name__ == "__main__":
     toolkit = SecurityToolkit()
     toolkit.demo()
