@@ -152,9 +152,9 @@ class CryptoUtils:
             logging.error(f"Secure delete failed for {path}: {e}")
             raise
 
-# --------------------------------------
+# -------------------------------------
 # Key Management System
-# --------------------------------------
+# -------------------------------------
 class KeyManager:
     def __init__(self, config: SecurityConfig):
         self.config = config
