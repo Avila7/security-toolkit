@@ -36,7 +36,7 @@ A Python based data protection, encryption, and system integrity monitoring.
 pip install cryptography
 
 
--------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 
 from toolkit import SecurityToolkit
 
@@ -54,7 +54,7 @@ status, reason = toolkit.file_monitor.verify_file(Path("important.doc"))
 
 
 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 
 # Run interactive demo
