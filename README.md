@@ -36,7 +36,7 @@ A Python based data protection, encryption, and system integrity monitoring.
 pip install cryptography
 
 
-----------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 from toolkit import SecurityToolkit
 
