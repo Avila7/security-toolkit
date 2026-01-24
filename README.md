@@ -1,5 +1,5 @@
-#  Personal Security Toolkit                     
- 
+#  Personal Security Toolkit
+
 A Python based data protection, encryption, and system integrity monitoring.
 
 ## Features
